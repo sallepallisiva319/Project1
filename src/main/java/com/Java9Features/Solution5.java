@@ -20,7 +20,7 @@ public class Solution5 {
 
 
        List<String> l=new ArrayList<>(Arrays.asList("ms","va","dd"));
-        List<String> collect = l.stream().map(s3 -> s3.substring(0, 1).toUpperCase() + s.substring(1, s3.length())).collect(Collectors.toList());
-        System.out.println(collect);
+        List<String> c = l.stream().map(s3 -> s3.substring(0, 1).toUpperCase() + s.substring(1, s3.length())).collect(Collectors.toList());
+        System.out.println(c);
     }
 }
